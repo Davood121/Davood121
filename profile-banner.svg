@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2400" height="600" viewBox="0 0 2400 600" role="img" aria-labelledby="title desc">
 <title id="title">Shaik Davood — Engineering, AI and Robotics</title>
-<desc id="desc">A cinematic navy and electric-blue banner with a glowing AI processor, circuit paths, and the tagline Building intelligent systems that solve real problems.</desc>
+<desc id="desc">A navy and electric-blue AI robotics banner with subtle animated rings and glowing circuitry.</desc>
 <defs>
  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020817"/><stop offset=".52" stop-color="#092347"/><stop offset="1" stop-color="#010713"/></linearGradient>
  <linearGradient id="blue"><stop stop-color="#22d3ee"/><stop offset=".52" stop-color="#0ea5e9"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
@@ -12,7 +12,7 @@
 </defs>
 <g clip-path="url(#clip)">
 <rect width="2400" height="600" fill="url(#bg)"/><rect width="2400" height="600" fill="url(#grid)"/>
-<ellipse cx="1840" cy="285" rx="560" ry="430" fill="url(#aura)"/>
+<ellipse cx="1840" cy="285" rx="560" ry="430" fill="url(#aura)"><animate attributeName="opacity" values=".55;1;.55" dur="5s" repeatCount="indefinite"/></ellipse>
 <path d="M0 0H220L80 140H0ZM2400 0H2280L2140 140H2260ZM2400 450L2250 600H2400Z" fill="#0b4e91" opacity=".35"/>
 <g fill="none" stroke="url(#blue)" stroke-width="2.4" stroke-opacity=".78">
 <path d="M0 130H110L155 85H520L565 40H810M0 192H72L143 121H438M0 455H130L220 545H495L545 595"/>
@@ -22,14 +22,18 @@
 </g>
 <g fill="url(#dots)"><rect x="120" y="120" width="180" height="52"/><rect x="2200" y="100" width="145" height="110"/><rect x="1960" y="475" width="130" height="70"/></g>
 <g transform="translate(1840 290)">
-<circle r="248" fill="url(#aura)"/><circle r="202" fill="#04152a" fill-opacity=".6" stroke="#087fce" stroke-opacity=".55" stroke-width="2"/>
-<circle r="186" fill="none" stroke="#0ea5e9" stroke-width="2.5" stroke-dasharray="2 11" opacity=".9"/>
-<circle r="166" fill="none" stroke="url(#blue)" stroke-width="14" opacity=".9"/><circle r="143" fill="#061b34" stroke="#38bdf8" stroke-width="3"/>
-<circle r="124" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4 8"/><circle r="103" fill="none" stroke="#0ea5e9" stroke-width="3"/>
+<circle r="248" fill="url(#aura)"/>
+<circle r="202" fill="#04152a" fill-opacity=".6" stroke="#087fce" stroke-opacity=".55" stroke-width="2"/>
+<circle r="186" fill="none" stroke="#0ea5e9" stroke-width="2.5" stroke-dasharray="2 11" opacity=".9"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="90s" repeatCount="indefinite"/></circle>
+<circle r="166" fill="none" stroke="url(#blue)" stroke-width="14" opacity=".9" stroke-dasharray="720 330"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="38s" repeatCount="indefinite"/></circle>
+<circle r="143" fill="#061b34" stroke="#38bdf8" stroke-width="3"/>
+<circle r="124" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4 8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/></circle>
+<circle r="103" fill="none" stroke="#0ea5e9" stroke-width="3" stroke-dasharray="100 36"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="20s" repeatCount="indefinite"/></circle>
 <g stroke="#38bdf8" stroke-width="3" stroke-linecap="round"><path d="M0-220V-194M0 194V220M-220 0H-194M194 0H220M-155-155L-137-137M155-155L137-137M-155 155L-137 137M155 155L137 137"/></g>
-<rect x="-56" y="-56" width="112" height="112" rx="12" fill="#04152b" stroke="#38bdf8" stroke-width="4" filter="url(#glow)"/><rect x="-39" y="-39" width="78" height="78" rx="7" fill="#075985" fill-opacity=".65" stroke="#60a5fa" stroke-width="2"/><rect x="-22" y="-22" width="44" height="44" rx="4" fill="#0ea5e9" fill-opacity=".4" stroke="#7dd3fc" stroke-width="2"/>
+<rect x="-56" y="-56" width="112" height="112" rx="12" fill="#04152b" stroke="#38bdf8" stroke-width="4" filter="url(#glow)"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="2.8s" repeatCount="indefinite"/></rect>
+<rect x="-39" y="-39" width="78" height="78" rx="7" fill="#075985" fill-opacity=".65" stroke="#60a5fa" stroke-width="2"/><rect x="-22" y="-22" width="44" height="44" rx="4" fill="#0ea5e9" fill-opacity=".4" stroke="#7dd3fc" stroke-width="2"/>
 <g stroke="#38bdf8" stroke-width="4" stroke-linecap="round"><path d="M-34-72V-56M-17-72V-56M0-72V-56M17-72V-56M34-72V-56M-34 56V72M-17 56V72M0 56V72M17 56V72M34 56V72M-72-34H-56M-72-17H-56M-72 0H-56M-72 17H-56M-72 34H-56M56-34H72M56-17H72M56 0H72M56 17H72M56 34H72"/></g>
-<path d="M-20 0H20M0-20V20M-14-14L14 14M14-14L-14 14" stroke="#e0f2fe" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/><circle r="8" fill="#e0f2fe" filter="url(#glow)"/>
+<path d="M-20 0H20M0-20V20M-14-14L14 14M14-14L-14 14" stroke="#e0f2fe" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/><circle r="8" fill="#e0f2fe" filter="url(#glow)"><animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/></circle>
 </g>
 <path d="M0 580Q650 500 1130 550T2400 515V600H0Z" fill="#03152a" opacity=".8"/><path d="M0 575Q650 495 1130 545T2400 510" fill="none" stroke="#168cff" stroke-opacity=".55" stroke-width="3"/>
 <g font-family="Segoe UI,Arial,sans-serif">
